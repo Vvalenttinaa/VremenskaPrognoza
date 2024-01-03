@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="190.0" prefWidth="339.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vremenskaprognoza.GUIUtil.UspjesnoDodavanjeController">
+   <children>
+      <Label layoutX="93.0" layoutY="60.0" prefHeight="70.0" prefWidth="211.0" text="USPJESNO DODAVANJE!" />
+   </children>
+</Pane>

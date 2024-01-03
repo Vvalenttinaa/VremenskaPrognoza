@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="507.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vremenskaprognoza.Zaposleni.Mjerenje.DodavanjeMjerenjaController">
+   <children>
+      <Label layoutX="57.0" layoutY="54.0" text="Vrijeme:" />
+      <Label layoutX="57.0" layoutY="105.0" text="Meteoroloska stanica:" />
+      <Label layoutX="56.0" layoutY="80.0" text="Lokacija:" />
+      <Label layoutX="56.0" layoutY="130.0" text="Lokacija mjernih instrumenata:" />
+      <Label layoutX="56.0" layoutY="221.0" text="Temperatura:" />
+      <Label layoutX="56.0" layoutY="247.0" text="UV:" />
+      <ComboBox fx:id="idPadavine" layoutX="172.0" layoutY="275.0" onAction="#choosePadavine" prefHeight="25.0" prefWidth="149.0" />
+      <Label layoutX="86.0" layoutY="317.0" text="Opis:" />
+      <Label layoutX="87.0" layoutY="342.0" text="Vjerovatnoca:" />
+      <Label layoutX="86.0" layoutY="369.0" text="Kolicina:" />
+      <TextField fx:id="idOpisPadavine" layoutX="172.0" layoutY="313.0" onAction="#inputOpisPadavine" />
+      <TextField fx:id="idVjerovatnocaPadavina" layoutX="172.0" layoutY="338.0" onAction="#inputVjerovatnocaPadavina" />
+      <TextField fx:id="idKolicinaPadavina" layoutX="172.0" layoutY="365.0" onAction="#inputKolicinaPadavina" />
+      <TextField fx:id="idTemperatura" layoutX="172.0" layoutY="217.0" onAction="#inputTemperatura" />
+      <TextField fx:id="idUV" layoutX="172.0" layoutY="243.0" onAction="#inputUV" />
+      <Button fx:id="idDodaj" layoutX="51.0" layoutY="411.0" mnemonicParsing="false" onAction="#dodajButtonClick" prefHeight="60.0" prefWidth="205.0" text="Dodaj mjerenje" />
+      <ComboBox fx:id="idMeteoroloskaStanica" layoutX="225.0" layoutY="101.0" onAction="#izaberiMeteoroloskuStanicu" prefHeight="25.0" prefWidth="307.0" />
+      <ComboBox fx:id="idLokacijaMjernihInstrumenata" layoutX="225.0" layoutY="126.0" onAction="#izaberiLokacijuMjernihInstrumenata" prefHeight="25.0" prefWidth="307.0" />
+      <Label layoutX="51.0" layoutY="279.0" text="Padavine:" />
+      <ComboBox fx:id="idLokacijaMjerenja" layoutX="225.0" layoutY="76.0" onAction="#izaberiLokaciju" prefHeight="25.0" prefWidth="307.0" />
+      <TextField fx:id="idVrijeme" layoutX="226.0" layoutY="50.0" prefHeight="25.0" prefWidth="307.0" />
+   </children>
+</Pane>

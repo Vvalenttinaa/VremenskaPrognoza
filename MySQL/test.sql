@@ -1,0 +1,1 @@
+insert into db_vremenska_prognoza.nalog values('m', 'm', 'm');

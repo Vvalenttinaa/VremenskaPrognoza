@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vremenskaprognoza.Pregled.PregledController">
+   <children>
+      <Label layoutX="68.0" layoutY="46.0" text="Grad:" />
+      <TextField fx:id="idGrad" layoutX="107.0" layoutY="42.0" onAction="#inputGrad" />
+      <Label layoutX="68.0" layoutY="72.0" text="Ulica:" />
+      <TextField fx:id="idUlica" layoutX="107.0" layoutY="68.0" onAction="#inputGrad" />
+      <Label layoutX="68.0" layoutY="98.0" text="Broj:" />
+      <TextField fx:id="idBroj" layoutX="107.0" layoutY="94.0" onAction="#inputGrad" />
+      <Button fx:id="idPrikaziButton" layoutX="107.0" layoutY="150.0" mnemonicParsing="false" onAction="#clickedPrikaziButton" text="Prikazi" />
+   </children>
+</AnchorPane>

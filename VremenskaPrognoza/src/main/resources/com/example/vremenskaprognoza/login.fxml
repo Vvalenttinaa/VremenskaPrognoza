@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vremenskaprognoza.loginController">
+   <children>
+      <Label fx:id="idKorisnickoIme" layoutX="76.0" layoutY="54.0" text="Korisnicko ime:" />
+      <Label fx:id="idLozinka" layoutX="76.0" layoutY="94.0" text="Lozinka:" />
+      <PasswordField fx:id="idLozinkaPolje" layoutX="171.0" layoutY="90.0" onAction="#inputLozinka" />
+      <TextField fx:id="idKorisnickoImePolje" layoutX="171.0" layoutY="50.0" onAction="#inputKorisnickoIme" />
+      <CheckBox fx:id="idMeteorolog" layoutX="171.0" layoutY="138.0" mnemonicParsing="false" onAction="#meteorologClicked" text="Meteorolog" />
+      <CheckBox fx:id="idAdministrator" layoutX="171.0" layoutY="170.0" mnemonicParsing="false" onAction="#administratorClicked" text="Administrator" />
+      <Button fx:id="idPrijava" layoutX="171.0" layoutY="232.0" mnemonicParsing="false" onAction="#prijavaClicked" prefHeight="25.0" prefWidth="149.0" text="Prijava" />
+   </children>
+</Pane>

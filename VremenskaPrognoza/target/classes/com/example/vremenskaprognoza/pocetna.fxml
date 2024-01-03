@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="259.0" prefWidth="321.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vremenskaprognoza.pocetnaController">
+   <children>
+      <Button fx:id="idPregled" layoutX="14.0" layoutY="38.0" mnemonicParsing="false" onAction="#pregledButtonClicked" text="Pregled" />
+      <Button fx:id="idPrijava" layoutX="93.0" layoutY="38.0" mnemonicParsing="false" onAction="#prijavaButtonClicked" text="Prijava" />
+   </children>
+</Pane>
